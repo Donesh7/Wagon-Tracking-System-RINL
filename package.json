@@ -1,12 +1,15 @@
 {
   "name": "vsp-rinl",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wagon Tracking System for Visakhapatnam Steel Plant",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "debug": "ndb app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.0",
@@ -17,5 +20,8 @@
     "nodemailer": "^7.0.3",
     "path": "^0.12.7",
     "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
