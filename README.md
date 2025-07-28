@@ -47,8 +47,8 @@ This project is a web-based application for managing railway wagon placement mem
 ### 1. **Clone the Repository**
 
 ```sh
-git clone https://github.com/HiteshKanisetty/vsp-rinl
-cd vsp-rinl
+git clone https://github.com/Donesh7/Wagon-Tracking-System-RINL
+cd Wagon-Tracking-System-RINL
 ```
 
 ### 2. **Install All Required Packages**
