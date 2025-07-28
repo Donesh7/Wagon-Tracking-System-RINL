@@ -7,8 +7,7 @@ const masterroutes = require("./routes/masterroutes");
 const cors = require("cors"); // allow all origins for testing
 
 const app = express();
-const MONGODB_URI =
-  "mongodb+srv://hiteshkanisetty:Hitu9866@cluster1.cguepfd.mongodb.net/vsp?retryWrites=true&w=majority&appName=cluster1";
+const MONGODB_URI =// "your database url" //
 const port = 2000;
 app.set("view engine", "ejs");
 app.set("views", "views");
